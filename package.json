@@ -1,0 +1,65 @@
+{
+  "name": "dsh-velshot",
+  "version": "1.0.0",
+  "description": "在 DeepSeek Harness 侧边栏添加「生图模式」入口，点击即跳转 Velshot AI 生图工作台（velshot.com）",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "velshot",
+    "image-generation",
+    "sidebar",
+    "launcher"
+  ],
+  "license": "MIT",
+  "author": "velshot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiangChem/dsh-velshot.git"
+  },
+  "homepage": "https://github.com/LiangChem/dsh-velshot#readme",
+  "bugs": {
+    "url": "https://github.com/LiangChem/dsh-velshot/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "type": "module",
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.2",
+    "@deepseek-ai/schemastery": "^3.18.2"
+  }
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Velshot">
+  <defs>
+    <linearGradient id="velshot-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f7cff"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#velshot-bg)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="12" y="17" width="40" height="30" rx="6"/>
+    <circle cx="23" cy="27" r="2.8" fill="#ffffff" stroke="none"/>
+    <path d="M16 43l9.5-9.5 6.5 6.5 5-5L47 45"/>
+  </g>
+</svg>

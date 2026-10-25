@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Velshot Image Mode",
+    "description": "Adds an Image Mode entry to the sidebar. Clicking it opens the Velshot AI image workspace in your system browser."
+  }
+}
