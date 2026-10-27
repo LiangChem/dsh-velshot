@@ -1,7 +1,7 @@
 {
   "name": "dsh-velshot",
-  "version": "1.0.1",
-  "description": "在 DeepSeek Harness 侧边栏添加「生图模式」入口，点击即在系统浏览器打开 Velshot。",
+  "version": "1.0.2",
+  "description": "DSH plugin: a Velshot launcher in the sidebar — click 生图模式, then open the site in your system browser.",
   "keywords": [
     "dsh",
     "dsh-plugin",

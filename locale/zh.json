@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "生图模式（Velshot）",
-    "description": "在侧边栏添加「生图模式」入口，点击即在系统浏览器打开 Velshot。"
+    "description": "DSH 插件：侧边栏的 Velshot 启动器——点击「生图模式」，即在系统浏览器打开网站。"
   }
 }

@@ -1,6 +1,6 @@
 # dsh-velshot
 
-在 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）侧边栏添加一个「**生图模式**」入口，点击即在系统浏览器打开 [Velshot](https://velshot.com) AI 生图工作台。
+DSH 插件：侧边栏的 **Velshot** 启动器——点击「生图模式」，即在系统浏览器打开 [velshot.com](https://velshot.com)。
 
 ## 安装
 
