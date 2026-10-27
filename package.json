@@ -1,7 +1,7 @@
 {
   "name": "dsh-velshot",
-  "version": "1.0.0",
-  "description": "在 DeepSeek Harness 侧边栏添加「生图模式」入口，点击即跳转 Velshot AI 生图工作台（velshot.com）",
+  "version": "1.0.1",
+  "description": "在 DeepSeek Harness 侧边栏添加「生图模式」入口，点击即在系统浏览器打开 Velshot。",
   "keywords": [
     "dsh",
     "dsh-plugin",
