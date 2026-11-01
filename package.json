@@ -1,6 +1,6 @@
 {
   "name": "dsh-velshot",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "DSH plugin: a Velshot launcher in the sidebar — click 生图模式, then open the site in your system browser.",
   "keywords": [
     "dsh",
